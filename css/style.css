@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: rgb(70, 150, 150);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+footer{
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+div.form_cli{
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+hgroup{
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    color: white;
+}
+form > *{
+    width: 400px;
+    height: 20px;
+    text-align: center;
+}
+body{
+    background-color: rgb(115, 173, 175);
+}
