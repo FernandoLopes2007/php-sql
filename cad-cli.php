@@ -20,6 +20,8 @@ values(?,?,?);");
         $stmt->bindParam(3,$data_nasc);
         //Executando o insert
         $stmt->execute();
+        header("Location: form-cli.php");
+        die();
     }catch(PDOexception $e){
         echo "ERROR: ".$e->getMessage();
     }
